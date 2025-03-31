@@ -64,10 +64,13 @@ form button {
   color: white;
   opacity: 0.9;
   transition: 0.3s ease-in;
+  cursor: pointer;
+
 }
 form button:hover {
   opacity: 1;
   transition: 0.3s ease-in;
+  
 }
 form button:active {
   background-color: var(--primary-dark);
